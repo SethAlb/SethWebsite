@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenVpn With AWS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <header class="p-6 bg-blue-800 text-white">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold">Open VPN Project</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6 space-y-12">
+        <!-- Objective Section -->
+        <section>
+            <h2 class="text-2xl font-semibold text-blue-800">Objective</h2>
+            <p class="mt-4 text-gray-700">The primary objective of this project was to create and deploy a secure and functional VPN on AWS to help me learn and apply network security concepts. The project also included implementing a user-friendly web interface to verify the VPN connection by showing the user their IP and location according to their IP. I needed it to be available 24/7 without downtime to keep this project realistic. I implemented this by using AWS’s Auto Scaling feature, ensuring continuous availability and minimum downtime by ensuring there is always an EC2 running and helping to deliver a cost-efficient solution.  </p>
+        </section>
+
+        <!-- Skills Learned Section -->
+        <section>
+            <h2 class="text-2xl font-semibold text-blue-800">Skills Learned</h2>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li>Network Security fundementals and deployment of VPN's.</li>
+                <li>AWS services: EC2, Auto Scaling, and Amplify.</li>
+                <li>OpenVPN configuration.</li>
+                <li>Designing architecture diagrams for project planning.</li>
+                <li>Troubleshooting and testing cloud-based applications.</li>
+            </ul>
+        </section>
+
+        <!-- Tools Used Section -->
+        <section>
+            <h2 class="text-2xl font-semibold text-blue-800">Tools Used</h2>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li>AWS Services: EC2,Amplify,Auto Scaling, Draw.io .</li>
+                <li>VPN Software: OpenVPN AMI.</li>
+                <li>Programming: HTML, JavaScript, API intergration.</li>
+                <li>Resources: Tutorials, videos, and offical Documentaion. </li>
+                <ul class="ml-6 list-disc">
+                    <li> 
+                        <a href="https://openvpn.net/as-docs/tutorials/tutorial--smart-routing-aws.html#saml" class="hover:underline text-blue-600">OpenVPN Smart Routing with AWS Route 53</a>
+                    </li>
+                    <li> 
+                        <a href="https://www.youtube.com/watch?v=ApwCca__Osc" class="hover:underline text-blue-600">OpenVPN Tutorial Video</a>
+                    </li>
+                    <li> 
+                        <a href="https://serverfault.com/questions/1100300/can-i-add-firewall-rules-to-an-aws-vpn-connection" class="hover:underline text-blue-600">AWS VPN Firewall Rules Discussion</a>
+                    </li>
+                </ul> 
+            </ul>
+        </section>
+
+        <!-- Steps Section -->
+        <section>
+            <h2 class="text-2xl font-semibold text-blue-800">Deployment Process</h2>
+            <p class="mt-4 text-gray-700">Paper written on this project: <a href="https://docs.google.com/document/d/1dWfzxiXCCdEbsJ2sLQ0pN7PWQBqPJuATWUs_-b1xLmg/edit?usp=sharing">Paper</a></p>
+
+            <!-- Example Screenshot Reference -->
+            <div class="mt-6">
+                <h3 class="text-lg font-medium text-blue-700">Screenshots</h3>
+                <img src="/Photos/OpenVPN/Architecture.jpg" alt="Network Diagram" class="mt-4 border border-gray-300 rounded shadow-md">
+                <p class="mt-2 text-gray-600">Ref 1: Architecture Diagram</p>
+            </div>
+            <div class="mt-6">
+                <img src="/Photos/OpenVPN/Amplify.jpg" alt="Network Diagram" class="mt-4 border border-gray-300 rounded shadow-md">
+                <p class="mt-2 text-gray-600">Ref 2: Amplify Web Page</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="p-6 bg-gray-800 text-center text-gray-200">
+        <p>&copy; 2024 Seth Albergaria. All rights reserved.</p>
+    </footer>
+</body>
+</html>
